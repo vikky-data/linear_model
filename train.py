@@ -27,6 +27,8 @@ def get_predictions():
     return jsonify({"predictions": result[0]})
   except Exception as e:
     return jsonify(e)
+  #iftted in
 
 if __name__ == "__main__":
   app.run(debug=True)
+  
